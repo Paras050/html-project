@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration form </title>
+    <style>
+     ta1{
+       text-align: left;
+    </style>
+    
+</head>
+<body>
+    <p><b>Register Form</b></p>
+    
+    <form action="welcome.html" method="post">
+        <label id="l1"> First Name </label>
+        <input type="text" name="fname" required>
+        <br>
+        <br>
+        <label id="l2"> Last Name </label>
+        <input type="text" name="lname" disabled>
+        <br>
+        <br>
+        <label id="l2"> Gender </label>
+        <br>
+        <input type="radio" name="gender" value="male">
+        male
+        <br>
+        <input type="radio" name="gender" value="female">
+        female
+        <br>
+        <input type="radio" name="gender" value="Dont like to disclose">
+        Dont like to disclose
+        <br>
+        <br>
+        <label id="l8"> DOB </label>
+        <br>
+        <input type="date" name="dob">
+        <br>
+        <br>
+        <label id="l2"> Education </label>
+        <br>
+        <input type="checkbox" name="Education" value="UG">
+       UG
+        <br>
+        <input type="checkbox" name="Education" value="PG">
+       PG
+        <br>
+        <input type="checkbox" name="Education" value="Doctrate">
+        Doctrate
+        <br>
+        <br>
+        
+        <label id="l3"> Address </label>
+        <input type="text" name="address">
+        <br>
+        <br>
+        <label id="l4"> Email </label>
+        <input type="text" name="email">
+        <br>
+        <br>
+     <label id="l5"> Place </label>
+        <input list="Places" >
+        <datalist id="Places">
+            <option value="pune"></option>
+            <option value="chennai"></option>
+            <option value="delhi"></option>
+            <option value="cochin"></option>
+                 </datalist>
+
+                 <br>
+                 <br>
+
+                 <label id="l6"> How do you find this web page</label>
+                 <select name="find">
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                 </select>
+
+                 <br>
+        
+                 <br>
+                 <label id="l7"> Comments</label>
+                 <br>
+                 <textarea name="message" rows="10" cols="30" id="ta1" >
+                    Leave your queries 
+                 </textarea>
+
+                 <br>
+                 <br>
+
+
+        <input type="submit" name="Submit" width="50" height="20" value="submit" " >
+
+
+    </form>
+
+</body>
+</html>
